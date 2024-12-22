@@ -11,7 +11,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:5173","https://asif-chatting-app-fe.vercel.app"],
+    origin: ["http://localhost:5173","https://asif-chatting-app-fe.vercel.app","asif-chatting-app-3yaojyh2n-asifkhans-projects-3587f39b.vercel.app"],
     methods: ["GET", "POST"],
   },
 });

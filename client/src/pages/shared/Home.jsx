@@ -5,7 +5,7 @@ import { Chat } from './Chat';
 
 
 
-const socket = io.connect("https://asif-chatting-app.vercel.app");
+const socket = io.connect("asif-chatting-ofhkvzk7g-asifkhans-projects-3587f39b.vercel.app");
 
 
 export const Home = () => {
