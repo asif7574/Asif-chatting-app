@@ -5,7 +5,7 @@ import { Chat } from './Chat';
 
 
 
-const socket = io.connect("http://localhost:3000");
+const socket = io.connect("https://asif-chatting-app.vercel.app");
 
 
 export const Home = () => {
