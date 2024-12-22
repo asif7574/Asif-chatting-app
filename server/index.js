@@ -39,7 +39,9 @@ server.listen(3000, () => {
 });
 
 
-
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 
 
   // app.all("*", (req, res) => {
